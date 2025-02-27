@@ -12,19 +12,20 @@ export const router = createRouter({
       path: '/',
       name: 'Layout',
       component: Layout,
-      children: routes,
+      children: [...routes],
       redirect: routes[0].path,
     },
-    // {
-    //   path: '/Login',
-    //   name: 'Login',
-    //   component: () => import('@/views/BuiltIn/Login/index.vue'),
-    // },
-    // {
-    //   path: '/Visitor',
-    //   name: 'Visitor',
-    //   component: () => import('@/views/BuiltIn/Visitor/index.vue'),
-    // },
+    {
+      path: '/:catchAll(.*)',
+      name: '404',
+      meta: { title: '404' },
+      component: () => import('@/views/404/index.vue'),
+    },
+    {
+      path: '/Login',
+      name: 'Login',
+      component: () => import('@/views/login/index.vue'),
+    },
   ],
 })
 
