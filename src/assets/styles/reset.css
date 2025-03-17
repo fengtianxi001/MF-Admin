@@ -1,3 +1,23 @@
+body[arco-theme='dark'] .leaflet-layer {
+  filter: grayscale(100) invert(100);
+}
+.leaflet-div-icon {
+  background: transparent !important;
+  border: unset !important;
+}
+.marker-cluster div {
+  font-size: 16px !important;
+  font-weight: bold !important;
+  color: #fff !important;
+}
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  background-color: var(--color-bg-1);
+}
 .arco-alert-info .arco-alert-content {
   color: rgb(var(--primary-6));
 }

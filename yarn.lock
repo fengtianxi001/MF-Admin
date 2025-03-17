@@ -710,6 +710,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/js-cookie@^3.0.6":
+  version "3.0.6"
+  resolved "http://192.168.55.12:8001/nexus/repository/npm-all/@types/js-cookie/-/js-cookie-3.0.6.tgz#a04ca19e877687bd449f5ad37d33b104b71fdf95"
+  integrity sha512-wkw9yd1kEXOPnvEeEV1Go1MmxtBJL0RR79aOTAApecWFVu7w0NNXNqhcWgvw2YgZDYadliXkl14pa3WXw5jlCQ==
+
 "@types/json-schema@*":
   version "7.0.15"
   resolved "https://mirrors.cloud.tencent.com/npm/@types/json-schema/-/json-schema-7.0.15.tgz"
@@ -726,6 +731,18 @@
   integrity sha512-EXdsL4EhoUtGm2GC2ZYtXn+Fzc6pluVgagvo2VC1RHWToLGlTRwVYoDpqS/7QXa01rmDyBjJk3Catpf60VMkwg==
   dependencies:
     "@types/geojson" "*"
+
+"@types/lodash-es@^4.17.12":
+  version "4.17.12"
+  resolved "http://192.168.55.12:8001/nexus/repository/npm-all/@types/lodash-es/-/lodash-es-4.17.12.tgz#65f6d1e5f80539aa7cfbfc962de5def0cf4f341b"
+  integrity sha512-0NgftHUcV4v34VhXm8QBSftKVXtbkBG3ViCjs6+eJ5a6y6Mi/jiFGPc1sC7QK+9BFhWrURE3EOggmWaSxL9OzQ==
+  dependencies:
+    "@types/lodash" "*"
+
+"@types/lodash@*":
+  version "4.17.16"
+  resolved "http://192.168.55.12:8001/nexus/repository/npm-all/@types/lodash/-/lodash-4.17.16.tgz#94ae78fab4a38d73086e962d0b65c30d816bfb0a"
+  integrity sha512-HX7Em5NYQAXKW+1T+FiuG27NGwzJfCX3s1GjOa7ujxZa52kjJLOr4FUxT+giF6Tgxv1e+/czV/iTtBw27WTU9g==
 
 "@types/lodash@^4.14.202":
   version "4.14.202"

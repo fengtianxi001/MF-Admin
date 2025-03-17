@@ -36,6 +36,7 @@ const collapsed = ref(false)
   display: flex;
   width: 100%;
   height: 100%;
+  font-family: SarasaMonoSC;
   color: var(--color-text-1);
   background-color: var(--color-bg-1);
   .layout-sider {

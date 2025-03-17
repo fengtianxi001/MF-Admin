@@ -1,11 +1,13 @@
 import type { App } from 'vue'
 import Arco from '@arco-design/web-vue'
 import autofit from 'autofit.js'
+import '@/assets/fontawesome/all.css'
+import '@/assets/fonts/SarasaMonoSC/result.css'
+import '@/assets/styles/reset.css'
 import '@arco-design/web-vue/es/index.less'
 import 'leaflet/dist/leaflet.css'
 import 'animate.css'
-import { getQueryString } from '@/plugins/utils'
-import '@/assets/styles/reset.css'
+
 /**
  * 插件注册程序, 完成以下主要步骤
  * - 全局组件、依赖、样式注册
