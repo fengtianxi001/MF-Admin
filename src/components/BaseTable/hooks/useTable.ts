@@ -1,4 +1,4 @@
-import { isFunction } from 'lodash'
+import { isFunction } from 'lodash-es'
 import { ref, watch, type WatchStopHandle } from 'vue'
 import { useCatchAsync } from '../hooks/useCatchAsync'
 import { useLoading } from './useLoading'

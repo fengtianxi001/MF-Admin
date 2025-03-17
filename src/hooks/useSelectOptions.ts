@@ -1,5 +1,5 @@
 import { catchAsync } from '@/plugins/utils'
-import { get, isFunction } from 'lodash'
+import { get, isFunction } from 'lodash-es'
 import { ref } from 'vue'
 
 type UseSelectOptionsParamsType = {

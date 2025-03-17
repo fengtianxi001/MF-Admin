@@ -38,7 +38,7 @@
 import { Table, Link, Button, TableColumn } from '@arco-design/web-vue'
 import { computed } from 'vue'
 import * as arco from '@arco-design/web-vue'
-import { isArray, isFunction, isString } from 'lodash'
+import { isArray, isFunction, isString } from 'lodash-es'
 
 interface PropsType {
   columns: Array<any>

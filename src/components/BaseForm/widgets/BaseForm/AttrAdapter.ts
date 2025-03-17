@@ -1,5 +1,5 @@
 import * as Arco from '@arco-design/web-vue'
-import { forEach, isArray, isNil, isObject, isString } from 'lodash'
+import { forEach, isArray, isNil, isObject, isString } from 'lodash-es'
 import { h } from 'vue'
 import PinyinMatch from 'pinyin-match'
 import CodeEditor from '../CodeEditor/index.vue'

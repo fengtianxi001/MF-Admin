@@ -1,6 +1,6 @@
 import { useStatePersistence } from '@/hooks'
 import { computed } from 'vue'
-import { findIndex, remove } from 'lodash'
+import { findIndex, remove } from 'lodash-es'
 import router from '@/router'
 import type { RouteLocationNormalized } from 'vue-router'
 

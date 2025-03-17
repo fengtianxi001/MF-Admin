@@ -1,4 +1,4 @@
-import { isFunction } from 'lodash'
+import { isFunction } from 'lodash-es'
 import { ref, watch } from 'vue'
 
 interface Options<T> {

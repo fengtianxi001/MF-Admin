@@ -1,7 +1,7 @@
 import * as L from 'leaflet'
 import { onMounted, ref, shallowRef } from 'vue'
 import { instantiateVueComponent } from '@/plugins/utils'
-import { forEach } from 'lodash'
+import { forEach } from 'lodash-es'
 // import 'leaflet.markercluster/dist/MarkerCluster.css'
 // import 'leaflet.markercluster/dist/MarkerCluster.Default.css'
 // import 'leaflet.markercluster'

@@ -1,4 +1,4 @@
-import { debounce, isFunction } from 'lodash'
+import { debounce, isFunction } from 'lodash-es'
 import { onUnmounted } from 'vue'
 
 type noop = (...args: any[]) => any

@@ -11,8 +11,8 @@
 <script setup lang="tsx">
 import * as arco from '@arco-design/web-vue'
 import { Descriptions, DescriptionsItem, Tag } from '@arco-design/web-vue'
-import { isNil } from 'lodash'
-import { isFunction } from 'lodash'
+import { isNil } from 'lodash-es'
+import { isFunction } from 'lodash-es'
 
 interface PropsType {
   title: string

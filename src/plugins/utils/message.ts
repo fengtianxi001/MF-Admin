@@ -1,6 +1,6 @@
 import { Message as ArcoMessage } from '@arco-design/web-vue'
-import { isFunction } from 'lodash'
-import { isString } from 'lodash'
+import { isFunction } from 'lodash-es'
+import { isString } from 'lodash-es'
 
 let MessageMap = new Map()
 

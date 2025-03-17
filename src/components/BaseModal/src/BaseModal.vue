@@ -20,7 +20,7 @@
 </template>
 <script setup lang="ts">
 import { Modal, Spin } from '@arco-design/web-vue'
-import { isFunction } from 'lodash'
+import { isFunction } from 'lodash-es'
 import { useVisible } from '@/hooks/useVisible'
 
 const { visible, hide } = useVisible(true)

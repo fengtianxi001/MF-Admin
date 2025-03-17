@@ -1,4 +1,4 @@
-import { size } from 'lodash'
+import { size } from 'lodash-es'
 import { defineComponent, type PropType } from 'vue'
 // import type { routesType } from '@/router/routes/types'
 import { SubMenu, MenuItem } from '@arco-design/web-vue'

@@ -11,7 +11,7 @@ import {
   watchEffect,
 } from 'vue'
 import { videoToken } from '@/apis/video'
-import { uniqueId } from 'lodash'
+import { uniqueId } from 'lodash-es'
 import { Message } from '@arco-design/web-vue'
 import EZUIKit from 'ezuikit-js'
 

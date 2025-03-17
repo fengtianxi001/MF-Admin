@@ -1,6 +1,6 @@
 import nprogress from 'nprogress'
 import type { RouteLocationNormalized, Router } from 'vue-router'
-import { forEach } from 'lodash'
+import { forEach } from 'lodash-es'
 import { getToken, removeToken } from '@/plugins/auth'
 import { tabAppend } from '@/layout/stores/tabs'
 

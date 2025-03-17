@@ -8,7 +8,7 @@
 </template>
 <script setup lang="ts">
 import { Upload } from '@arco-design/web-vue'
-import { uniqueId } from 'lodash'
+import { uniqueId } from 'lodash-es'
 import { watch, ref } from 'vue'
 
 interface PropsType {

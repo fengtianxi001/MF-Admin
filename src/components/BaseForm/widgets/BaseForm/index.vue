@@ -24,7 +24,7 @@
 <script setup lang="ts">
 import { Form, FormItem } from '@arco-design/web-vue'
 import { ref, computed, watch, onBeforeMount, onUnmounted } from 'vue'
-import { forEach } from 'lodash'
+import { forEach } from 'lodash-es'
 import AttrAdapter from './AttrAdapter'
 import type { BaseFormConfigType } from '../../types'
 

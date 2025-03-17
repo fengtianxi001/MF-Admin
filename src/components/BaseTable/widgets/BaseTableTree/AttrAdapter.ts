@@ -1,4 +1,4 @@
-import { cloneDeep, filter } from 'lodash'
+import { cloneDeep, filter } from 'lodash-es'
 
 export class AttrAdapter {
   static tableProps(

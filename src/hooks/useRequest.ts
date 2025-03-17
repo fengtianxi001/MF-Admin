@@ -1,5 +1,5 @@
 import { onUnmounted, ref, watch } from 'vue'
-import { isFunction, isNumber } from 'lodash'
+import { isFunction, isNumber } from 'lodash-es'
 import useDebounceFn from './useDebounceFn'
 import useLoading from './useLoading'
 

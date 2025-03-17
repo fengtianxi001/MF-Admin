@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import { isFunction } from 'lodash'
+import { isFunction } from 'lodash-es'
 import type { FieldData } from '@arco-design/web-vue/es/form/interface'
 
 export function useBaseForm() {

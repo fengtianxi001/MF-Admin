@@ -31,7 +31,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import { isFunction, forEach } from 'lodash'
+import { isFunction, forEach } from 'lodash-es'
 import { computed, ref, type StyleValue } from 'vue'
 import { IconSearch, IconRefresh } from '@arco-design/web-vue/es/icon'
 import { Button } from '@arco-design/web-vue'

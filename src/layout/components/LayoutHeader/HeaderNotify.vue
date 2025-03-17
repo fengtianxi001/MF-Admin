@@ -72,7 +72,7 @@ import { IconNotification } from '@arco-design/web-vue/es/icon'
 // import { globalPageMsg, globalAllReadMsg } from '@/apis/SysSystem'
 // import { dateFormater } from '@/utils/common'
 import { useTable } from '@/components/BaseTable'
-import { isEmpty, size } from 'lodash'
+import { isEmpty, size } from 'lodash-es'
 import { ref, computed } from 'vue'
 
 function globalPageMsg(params: any) {

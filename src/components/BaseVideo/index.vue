@@ -4,7 +4,7 @@
 <script setup lang="ts">
 import { onMounted, shallowRef, ref } from 'vue'
 import EZUIKit from 'ezuikit-js'
-import { uniqueId } from 'lodash'
+import { uniqueId } from 'lodash-es'
 import { watch } from 'vue'
 import { videoToken } from '@/apis/video'
 interface PropsType {

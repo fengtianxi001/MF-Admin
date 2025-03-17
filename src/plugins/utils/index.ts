@@ -1,7 +1,7 @@
 import dayjs from 'dayjs'
 import { createVNode, defineComponent, h, render } from 'vue'
 import { Modal, Message } from '@arco-design/web-vue'
-import { isFunction } from 'lodash'
+import { isFunction } from 'lodash-es'
 
 export function mockResponse<T>(data: T) {
   return new Promise<T>((resolve) => {

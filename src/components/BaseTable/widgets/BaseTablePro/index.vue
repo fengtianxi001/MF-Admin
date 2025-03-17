@@ -39,7 +39,7 @@
 </template>
 <script setup lang="ts">
 import { computed, h, ref } from 'vue'
-import { isArray, isEmpty } from 'lodash'
+import { isArray, isEmpty } from 'lodash-es'
 import useTable from '../../hooks/useTable'
 import BaseTableFilter from '../BaseTableFilter/index.vue'
 import BaseTable from '../BaseTable/index.vue'
