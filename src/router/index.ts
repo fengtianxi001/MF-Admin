@@ -13,18 +13,12 @@ export const router = createRouter({
       name: 'Layout',
       component: Layout,
       children: [...routes],
-      redirect: routes[0].path,
     },
     {
       path: '/:catchAll(.*)',
       name: '404',
       meta: { title: '404' },
       component: () => import('@/views/404/index.vue'),
-    },
-    {
-      path: '/Login',
-      name: 'Login',
-      component: () => import('@/views/login/index.vue'),
     },
   ],
 })

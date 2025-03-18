@@ -8,15 +8,22 @@ import viteImagemin from 'vite-plugin-imagemin'
 
 export default defineConfig({
   base: './',
+  esbuild: {
+    pure: ['console.log'],
+    drop: ['debugger'],
+  },
   build: {
-    outDir: './docs',
     rollupOptions: {
       output: {
         chunkFileNames: 'js/[name]-[hash].js',
         entryFileNames: 'js/[name]-[hash].js',
         manualChunks(id) {
           if (id.includes('node_modules')) {
-            return 'vendor'
+            return id
+              .toString()
+              .split('node_modules/')[1]
+              .split('/')[0]
+              .toString()
           }
         },
       },
@@ -25,8 +32,8 @@ export default defineConfig({
   plugins: [
     vue(),
     vueJsx(),
-    visualizer(),
     stylelintPlugin({ fix: true }),
+    visualizer({ open: true }),
     viteImagemin({
       gifsicle: {
         optimizationLevel: 7,

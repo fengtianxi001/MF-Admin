@@ -1,5 +1,5 @@
 import type { App } from 'vue'
-import Arco from '@arco-design/web-vue'
+// import Arco from '@arco-design/web-vue'
 import autofit from 'autofit.js'
 import '@/assets/fontawesome/all.css'
 import '@/assets/fonts/SarasaMonoSC/result.css'
@@ -15,7 +15,7 @@ import 'animate.css'
  */
 
 export const setupPlugins = async (app: App<Element>) => {
-  app.use(Arco)
+  // app.use(Arco)
 
   const ScreenSize = {
     big: [2560, 1440],

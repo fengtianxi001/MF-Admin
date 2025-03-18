@@ -5,7 +5,7 @@ import { setupRouter } from '@/router'
 
 const boostrap = async () => {
   const app = createApp(App)
-  setupRouter(app)
+  await setupRouter(app)
   await setupPlugins(app)
   app.mount('#app')
 }
